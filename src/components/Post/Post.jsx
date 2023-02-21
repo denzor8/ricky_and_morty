@@ -15,7 +15,7 @@ const Post = ({ card }) => {
 					image={card.image}
 					title="green iguana"
 				/>
-				<CardContent>
+			<CardContent style={{ height:"30%"}}>
 					<Typography gutterBottom variant="h5" component="div">
 						{card.name}
 					</Typography>
